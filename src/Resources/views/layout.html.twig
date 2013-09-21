@@ -1,0 +1,80 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" type="text/css" href="/css/reset-min.css" media="all" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" media="all" />
+        <link rel="shortcut icon" href="favicon.ico" />
+        <title>{% block title %}Prunátic Consultoría Web - Tu socio en negocios digitales{% endblock %}</title>
+		<link rel='index' title='Prunátic Consultoría Web - Tu socio en negocios digitales' href='http://www.prunatic.com' />
+		<meta name="language" content="Spanish" />
+		<meta name="lang" content="es" /> 
+		<meta name="author" content="Prunátic Consultoría Web" />
+		<meta name="organization" content="Prunátic Consultoría Web" />
+		<meta name="locality" content="Mataró (Barcelona), España" />
+		<meta name="description" content="{% block description %}{% endblock %}" />
+		<meta name="keywords" content="{% block keywords %}{% endblock %}" />
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-1007636-8']);
+			_gaq.push(['_trackPageview']);
+			
+			(function() {
+			  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+</head>
+<body>
+	<div id="symfony-wrapper">
+
+		{% block header %}
+		<div id="header">
+			<div class="logo">
+				<a href="{{ path('homepage')}}" title="Prunátic Consultoría Web">
+					<img src="/images/prunatic-logo.jpg" alt="Prunátic Consultoría Web" />
+				</a>
+			</div>
+			<div class="contacto">
+				<p>
+					<span>Puedes contactar con nosotros en:</span><br />
+					<strong>Xavier Fornés<br />
+					636 92 58 26</strong><br />
+					<a href="mailto:xavier@prunatic.com">xavier@prunatic.com</a>
+				</p>
+			</div>
+		</div>
+		{% endblock header %}
+
+		{% block content %}
+			<div id="content">
+				<p class="titulo">Prunátic Consultoría Web</p>
+				<p>Tu socio en negocios digitales</p>
+			</div>
+		{% endblock content %}
+
+		{% block sidebar %}
+			<div id="sidebar"></div>
+		{% endblock sidebar %}
+
+		{% block footer %}
+		<div id="footer">
+			<img class="fondo" src="/images/footer-asteriscos.jpg" alt="" />
+			<div class="info">
+				<p class="direccion">
+					Paseo Antonio Regás 1, 1o<br />
+					Mataró, 08304<br />
+					Barcelona<br /><br />
+					<a href="{{ path('homepage')}}" title="Prunátic Consultoría Web">www.prunatic.com</a>
+				</p>
+				<a class="logo" href="{{ path('homepage')}}" title="Prunátic Consultoría Web">
+					<img src="/images/prunatic-logo-footer.jpg" alt="Prunátic Consultoría Web" />
+				</a>
+			</div>
+		</div>
+		{% endblock footer %}
+
+	</div>
+</body>
+</html>

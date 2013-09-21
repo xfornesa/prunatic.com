@@ -1,0 +1,16 @@
+{
+    "name": "Prunatic/PrunaticWeb",
+    "description": "Prunátic Consultoría Web",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Xavier Fornés",
+            "email": "xavier@prunatic.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "v1.1.0",
+        "twig/twig": "dev-master",
+        "symfony/twig-bridge": "2.3.x-dev"
+    }
+}

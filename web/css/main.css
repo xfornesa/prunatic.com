@@ -1,0 +1,212 @@
+html, body {
+    background-color: #32393f;
+}
+
+body {
+    font-size: 12px;
+	font-family: sans-serif, serif;
+	color: #7a7f83;
+}
+
+input, select {
+	color: #7a7f83;
+}
+
+p {
+	font-family: sans-serif, serif;
+	font-size: 14px;
+	color: #7a7f83;
+	margin: 10px auto 10px auto;
+}
+
+#content h1 {
+	font-family: Utopia, "Lucida Sans Unicode", "Lucida Grande", georgia, sans-serif, serif;
+	color: #d5d0c9;
+	font-size: 36px;
+}
+
+#content img.separador {
+}
+
+a {
+    text-decoration: underline;
+	color: #7a7f83;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+
+/* ******************** Common ******************** */
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
+
+.width-25 {
+	width: 25%;
+}
+
+.width-40 {
+	width: 39%;
+}
+
+.width-50 {
+	width: 49%;
+}
+
+.width-60 {
+    width: 59%;
+}
+
+.width-75 {
+	width: 74%;
+}
+
+.width-100 {
+	width: 100%;
+}
+
+.flash-notice {
+	color: green;
+}
+
+.flash-error {
+	color: red;
+}
+
+#symfony-wrapper {
+    width:  450px;
+    margin: 0 auto;
+	position: relative;
+}
+
+/* **********   Header   ********* */
+#header {
+	position: relative;
+}
+
+#header .logo {
+	position: relative;
+	top: 60px;
+	left: -210px;
+}
+
+#header .contacto {
+	position: relative;
+	top: 80px;
+	left: -210px;
+}
+
+#header .contacto p {
+	font-size: 14px;
+}
+
+#header .contacto span {
+	font-size: 12px;
+}
+
+#header .estrella {
+	position: relative;
+	top: 160px;
+	left: -210px;
+	
+}
+
+/* **********   Content  ********* */
+#content {
+    min-height: 100px;
+}
+
+/* **********   Sidebar  ********* */
+#sidebar {
+	position: absolute;
+	left: 500px;
+	top: 240px;
+	width: 175px;
+}
+
+#sidebar .widget {
+	margin-bottom: 30px;
+}
+
+#sidebar .widget p {
+	font-size: 13px;
+}
+
+#sidebar .widget h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#sidebar .widget h4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+/* **********   Sidebar - Callback widget *********** */
+#sidebar .widget+.callback {}
+
+#sidebar .widget+.callback input
+,#sidebar .widget+.callback select {
+	margin: 2px auto 2px auto;
+}
+
+#sidebar .widget+.callback .flash-notice
+,#sidebar .widget+.callback .flash-error {
+	font-size: 11px;
+	font-weight: normal;
+}
+
+/* **********   Solutions: Speedtic Consulting ********* */
+#content.speedtic {}
+
+/* **********   Footer   ********* */
+#footer {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+#footer .fondo {
+    position: absolute;
+	top: 0;
+	left: -250px;
+}
+#footer .info {
+	position: absolute;
+	top: 90px;
+	left: 0px;
+	width: 375px;
+	height: 100px;
+	background-color: #c54b66;
+	
+}
+
+#footer .direccion {
+	position: relative;
+	top: 0px;
+	left: 20px;
+	color: #d5d0c9;
+}
+
+#footer .direccion a {
+	color: #d5d0c9;
+}
+
+#footer .logo {
+	position: absolute;
+	top: 40px;
+	left: 230px;
+}

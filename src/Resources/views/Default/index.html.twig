@@ -1,0 +1,31 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}{{ parent() }}{% endblock %}
+{% block description %}{{ parent() }}{% endblock %}
+{% block keywords %}{{ parent() }}{% endblock %}
+
+{% block content %}
+    <div id="content">
+        <h1>Queremos ser socios <br />de tus negocios digitales.</h1>
+        <img class="separador" src="/images/separador.jpg" />
+        <p>Nos preocupamos de tus necesidades aprovechando la tecnología a nuestro alcance, hacemos uso de la Web para mejorar tu negocio.</p>
+        <img class="separador" src="/images/separador.jpg" />
+        <p>Proponemos soluciones para conseguir tus objetivos de negocio.</p>
+        <img class="separador" src="/images/separador.jpg" />
+        <p>No sólo somos desarrolladores web, sinó expertos en tecnología que te ayudarán a mejorar tu negocio.</p>
+        <p>Conoce nuestro servicio de asesoría TIC <em><a href="{{ path('speedtic') }}" title="Speedtic Service">Speedtic Service</a>*</em>: entrevístate con un experto durante un par de horas para sacar propuestas y soluciones a tus problemas.</p>
+        <p><small>* Sin ningún compromiso de contratación posterior de servicios por tu parte.</small></p>
+        <img class="separador" src="/images/separador.jpg" />
+        <p>Apostamos por el software libre y por la independencia de proveedor:</p>
+        <p>"Eres libre de trabajar con quien quieras."</p>
+    </div>
+{% endblock %}
+
+{% block sidebar %}
+    <div id="sidebar">
+        <div class="widget">
+            <h2>Servicios</h2>
+            <p><a href="{{ path('speedtic') }}" title="Speedtic Service"><strong>Speedtic Service</strong></a>, un servicio para encontrar propuestas y soluciones a tus negocios.</p>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,15 @@
+﻿/* TEAM */
+	Chef: Xavier Fornés
+	Contact: xavier [at] prunatic.com
+	Twitter: @xfornesa
+	From: Mataró (Barcelona), Catalonia, Spain
+
+	Web designer: María Pérez
+
+/* THANKS */
+
+/* SITE */
+	Last update:2013/09/21
+	Language: Castellano
+	Doctype: HTML
+	IDE: PHP Storm, Photoshop, Illustrator

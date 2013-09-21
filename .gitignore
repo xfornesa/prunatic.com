@@ -1,13 +1,9 @@
-# Bootstrap
-app/bootstrap*
-
-# Symfony directories
-vendor/*
-*/logs/*
-*/cache/*
-web/uploads/*
-web/bundles/*
+# Silex directories
+/phpunit.xml
+/vendor
+/build
+/composer.lock
+/cache/
 
 # Configuration files
-app/config/parameters.ini
-app/config/parameters.yml
+config/parameters.php

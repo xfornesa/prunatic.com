@@ -1,4 +1,6 @@
-prunatic.com
+Prunátic Consultoría Web
 ============
 
-Prunatic Web
+Código fuente de la web Prunátic Consultoría Web.
+
+<http://www.prunatic.com>
